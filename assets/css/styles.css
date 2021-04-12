@@ -1,0 +1,138 @@
+/* Farben: #3d4246 #f5f5f5 #000 #fff */
+/* font-family: 'Libre Caslon Display', serif;
+font-family: 'Open Sans', sans-serif; */
+
+body
+{
+    font-family: 'Libre Caslon Display', serif;
+}
+body h1
+{
+text-align: center;
+font-size: 56px;
+}
+body> header> nav
+{
+    margin: 0 auto;
+    border-bottom:1px solid #3d4246;
+    padding-bottom: 30px;
+}
+body> header> nav ul 
+{
+    list-style: none;
+   margin-left: 20%;
+}
+body> header> nav> ul> li
+{
+    display: inline;
+    margin: 0 auto;
+}
+body> header> nav> ul> li> a
+{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #3d4246;
+    text-align: center;
+    font-size: 24px;
+    margin-left:1%;
+    margin-right:1%;
+}
+body> header> nav> ul> li> a:hover
+{
+    text-decoration: underline;
+}
+body> main h2
+{
+    text-align: center;
+    font-size: 56px;
+}
+body main p
+{
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 2px;
+    font-family: 'Libre Caslon Display', serif;
+}
+body> main> div img
+{
+    margin:0 auto;
+    display: flex;
+}
+.options_class
+{
+    display: flex;
+}
+#row
+{
+    text-align: center;
+    margin-left: 20%;
+}
+#row h3
+{
+font-size:24px;
+letter-spacing: 2px;
+}
+#Button
+{
+    margin:0 auto;
+    text-align: center;
+    background-color: #3d4246;
+    width: 935px;
+    color:#fff;
+    letter-spacing: 3px;
+    font-size: 24px;
+    padding: 6px;
+    margin-bottom: 5%;
+    border: 1px solid #3d4246;
+    border-radius: 2px;
+}
+body> footer> img
+{
+    margin:0 auto;
+    display: flex;
+    width:80vw;
+    border-radius: 6px;
+    margin-bottom: 5%;
+}
+
+body>footer p
+{
+    text-align: left;
+    font-size: 24px;
+    word-spacing: 2px;
+    font-family: 'Libre Caslon Display', serif;
+    width: 80vw;
+    margin-left: 10vw;
+}
+#Button:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+body>footer> div
+{
+    background-color: #f5f5f5;
+    width: 90vw;
+    margin-bottom: 2%;
+   
+}
+body> footer> div ul 
+{
+    list-style: none;
+   display: inline;
+   padding-top: 100px;
+}
+body> footer> div> ul> li
+{
+    margin: 0 auto;
+    height: 100px;
+    text-align: left;
+    padding-top: 50px;
+}
+footer>div>ul>li a
+{
+    text-decoration: none;
+    color: #3d4246;
+    margin-left: 10%;
+    font-size: 24px;
+}
